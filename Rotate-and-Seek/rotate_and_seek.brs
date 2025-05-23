@@ -84,7 +84,7 @@ Function custom_ProcessEvent(event As Object) as boolean
 				retval = ParsecustomPluginMsg(msg$, m)
 			end if
 			
-			if (left(msg$,5) = "speed!") then
+			if (left(msg$,6) = "speed!") then
 				retval = ParsecustomPluginMsg(msg$, m)
 			end if
 
